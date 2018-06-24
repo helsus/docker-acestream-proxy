@@ -17,7 +17,7 @@ RUN mkdir -p /var/log/supervisor
 
 RUN adduser --disabled-password --gecos "" tv
 
-RUN cd /tmp/ && wget https://github.com/ValdikSS/aceproxy/archive/6dff4771c3.zip -O master.zip
+RUN cd /tmp/ && wget https://github.com/ValdikSS/aceproxy/archive/73da4c4f1b9a20586ffc87502ab6a3c177c21634.zip -O master.zip
 RUN cd /tmp/ && unzip master.zip -d /home/tv/
 RUN mv /home/tv/aceproxy-* /home/tv/aceproxy-master
 
